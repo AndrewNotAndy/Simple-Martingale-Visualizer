@@ -30,10 +30,10 @@ while bal > 0:
     else:
         bet(baseBet * multiplier)
     runs += 1
-    amountHitory.append(bal)
+    amountHistory.append(bal)
     runHistory.append(runs)
 
 
-plt.plot(runHistory, amountHitory)
+plt.plot(runHistory, amountHistory)
 
 plt.show()
