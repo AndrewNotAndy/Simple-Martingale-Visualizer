@@ -4,7 +4,7 @@ import random
 runs = 0
 bal = 10000
 baseBet = 100
-amountHitory = []
+amountHistory = []
 runHistory = []
 win = False
 multiplier = 1
